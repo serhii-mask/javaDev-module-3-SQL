@@ -1,3 +1,4 @@
+-- Запити для пошуку клієнта з найбільшою кількістю проектів
 SELECT c.name, count(p.client_id) AS projects_client FROM client c
 JOIN project p ON p.client_id = c.id
 GROUP BY client_id
@@ -20,4 +21,4 @@ HAVING projects_client = (
    )
 );
 
---Який варіант краще використовувати?
+-- Який варіант краще використовувати?

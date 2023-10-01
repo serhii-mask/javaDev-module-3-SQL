@@ -1,11 +1,11 @@
--- Вибір наймолодшого працівника
+-- Запит для пошуку наймолодшого працівника
 SELECT 'YOUNGEST' AS type, name, birthday
 FROM worker
 WHERE birthday= (SELECT MAX(birthday) FROM worker)
 
 UNION ALL
 
--- Вибір найстаршого працівника
+-- Запит для пошуку найстаршого працівника
 SELECT 'OLDEST' AS type, name, birthday
 FROM worker
 WHERE birthday= (SELECT MIN(birthday) FROM worker);

@@ -1,3 +1,4 @@
+-- Запит для пошуку найдовшого за тривалістю проекта
 SELECT c.name,
 DATEDIFF('MONTH', p.START_DATE, p.FINISH_DATE) AS month_count
 FROM client c

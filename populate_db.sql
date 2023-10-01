@@ -1,3 +1,4 @@
+-- Заповнюємо таблиці данними
 INSERT INTO worker (name, birthday, level, salary) VALUES
 	('Martin Doe', '2004-04-28', 'Trainee', 300),
 	('Bob Smith', '2005-06-12', 'Trainee', 300),
@@ -20,8 +21,6 @@ INSERT INTO client (name) VALUES
 	('Michael Petliyra'),
 	('Emma Chubrynets'),
 	('David Markivna');
-
-
 
 INSERT INTO project (client_id, start_date, finish_date) VALUES
 	(1, '2023-01-01', '2024-02-28'),
@@ -54,4 +53,14 @@ INSERT INTO project_worker (project_id, worker_id) VALUES
 	(6, 9),
 	(7, 1),
 	(7, 2),
-	(7, 8);
+	(7, 8),
+	(8, 3),
+	(8, 1),
+	(8, 7),
+	(8, 10),
+	(9, 4),
+	(9, 9),
+	(10, 2),
+	(10, 5),
+	(10, 8),
+	(11, 12);
