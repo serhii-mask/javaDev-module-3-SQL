@@ -158,8 +158,8 @@
         <td>42500</td>
     </tr>
     <tr>
-        <td>Project B</td>
-        <td>18000</td>>
+        <td>Project A</td>
+        <td>18000</td>
     </tr>
 </table>
 
